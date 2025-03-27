@@ -118,7 +118,6 @@ def main():
       
     global decision
     # main content
-    st.markdown("### Candidate Information")
     job_role = st.selectbox("🎯 Select the Job Role", ["AI/ML Engineer", 'FrontEnd Developer','BackEnd Developer'])
       
     if job_role == 'AI/ML Engineer':
